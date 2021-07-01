@@ -46,6 +46,7 @@ var TypeMysqlDicMp = map[string]string{
 	"mediumblob":          "[]byte",
 	"longblob":            "[]byte",
 	"integer":             "int64",
+	"geometry":            "[]byte",
 }
 
 // TypeMysqlMatchList Fuzzy Matching Types.模糊匹配类型
